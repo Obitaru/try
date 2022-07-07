@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Pet</title>
+    <script type="text/javascript">
+        function toutchShrad() {
+            var userName = prompt("Как тебя зовут?", "ENTER YOU NAME.");
+            if (userName) {
+                alert("Hi! " + userName + ". ");
+                document.getElementById("rockImg").src = "img2.png";
+            }
+        }
+    </script>
+</head>
+<body onload="alert('Hello, I am your pet rock');">
+
+<div style="margin-top: 100px; text-align:center">
+    <img id="rockImg" src="img.png" alt="" style="cursor:pointer"
+         onclick="toutchShrad();"/>
+</div>
+</body>
+</html>
